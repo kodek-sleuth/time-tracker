@@ -52,7 +52,6 @@ function App() {
         {error ? <Alert severity="error">{error}</Alert> : null}
       </div>
 
-
       <div style={{display: "flex", flexDirection: "row", justifyContent: "center", marginTop: "10%"}}>
         <form onSubmit={submit} style={{display: "flex", flexDirection: "column"}}>
           <Grid container direction="column" spacing={2}>
